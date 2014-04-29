@@ -13,6 +13,7 @@ GroceryApp.GroceryList.prototype = {
     for(i=0; i<this.itemList.length; i++){
       total += this.itemList[i].price
     }
+    total = total.toFixed(2)
     return total
   }
 }
