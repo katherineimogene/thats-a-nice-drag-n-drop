@@ -1,0 +1,60 @@
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #34495e;
+}
+
+#main {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgba(241, 128, 23, 0.9);
+  border-radius: 4px;
+  height: 100%;
+}
+
+.span6 {
+  width: 45%;
+  padding: 0 2.4%;
+  float: left;
+  height: 100%;
+}
+
+td, th {
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+    line-height: 120%;
+    text-align: left;
+}
+
+th {
+  padding-left: 0;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #E2E5EB;
+}
+
+table {
+  /*background-color: #ecf0f1;*/
+  border: 1px solid #1abc9c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+table#grocery_list tfoot {
+  color: red;
+}
+
+.item, .item * {
+  cursor: pointer;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none;
+}
