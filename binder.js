@@ -5,7 +5,7 @@ GroceryApp.Binder = function(dragClass,dropDiv){
 
 GroceryApp.Binder.prototype = {
   bindDrag: function(){
-    this.dragClass.draggable({helper: 'clone'})
+    this.dragClass.draggable({opacity: 0.7, helper: 'clone'})
   },
 
   bindDrop: function(){
